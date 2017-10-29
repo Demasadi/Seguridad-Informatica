@@ -3,13 +3,14 @@
 	margin:5px;
 	/*overflow:hidden;*/
 	box-sizing: border-box;
-	font-family: Helvetica;
+	font-family: 'Libre Franklin', sans-serif;
 }
 
 /* Contenedor Padre */
 .wrapper-padre{
 	padding:5px;
 	display:flex;
+	background: #FFF
 	/*background-color: rgba(179,179,179,1);*/
 	flex-flow:column nowrap;
 }
@@ -32,7 +33,7 @@
 			flex:auto;
 		}
 		.aside-a h1{
-			color:rgba(0,102,128,1);
+			color:#08298A;
 			/*align-self:center;*/
 			text-shadow: 2px 2px 2px #BBB;
 		}
@@ -42,13 +43,13 @@
 
 	/* Menú lateral */
 	.subheader{
-		display:flex;
+		display: flex;
 		flex-flow:row nowrap;
-		background-color:black;
+		background:#FFF;
 	}
 		.nav-contenedor{
 			flex: 0 1 auto;
-			background-color: #1A8399;
+			background: #F0B429;
 		}
 			.nav-contenedor ul{
 				padding:0;
@@ -60,7 +61,7 @@
 				text-align: center;
 			    border-style: solid;
 			    border-width: 5px;
-				background-color:#095560;
+				background:#F0B429;
 			}
 			.nav-contenedor li a{
 				color:#FFF;
@@ -69,7 +70,8 @@
 				text-decoration: none;
 			}
 			.nav-contenedor li a:hover{
-				background-color:pink;
+				background-color:#FFF;
+				font-family: 'Libre Franklin', sans-serif;
 			}
 
 			.submenu li a{
@@ -78,7 +80,7 @@
 
 		/* Slider */
 		.slider{
-			background-color: brown;
+			background: #A9A9F5;
 			flex: 3 1 auto;
 		}
 			.container{
@@ -93,8 +95,31 @@
 		.section{
 			display: flex;
 			flex-flow:row nowrap;
-			background-color:red;
+			background:#08298A;
+			font-family: 'Libre Franklin', sans-serif;
 		}
+		
+		.section row-1{
+			font-size: 20px;
+			padding: 10px;
+			color: #FFFFFF
+			font-family: 'Libre Franklin', sans-serif;
+		}
+		
+		.section h1{
+			font-size: 20px;
+			padding: 10px;
+			color: #FFFFFF
+			font-family: 'Libre Franklin', sans-serif;
+		}
+					
+		.section p{
+			font-size: 20px;
+			padding: 10px;
+			color: #FFFFFF
+			font-family: 'Libre Franklin', sans-serif;
+		}
+			
 			.aside-c{
 				display: flex;
 				flex-flow:row nowrap;
