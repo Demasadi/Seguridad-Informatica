@@ -53,6 +53,19 @@
 				padding:0;
 				margin:0;
 			}
+		nav ul li {
+    z-index: 1 !important;
+    float: left;
+    list-style-type: none;
+    background-color: #F0B429;
+    width: inherit;
+    height: 35px;
+    font-size: 25px;
+    color: white;
+    margin-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
 			.nav-contenedor li{	
 				padding:10px;		
 				list-style: none;
