@@ -1,10 +1,15 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>jquery.js</title>
-</head>
+$(document).ready(function(){
+	$('.menu li:has(ul)').click(function(e){
+		e.preventDefault();
 
-<body>
-</body>
-</html>
+		if($(this).hasClass('activado')){
+			$(this).removeClass('activado');
+			$(this).children('ul').slideUp();
+		}else{
+			$('.menu li ul').slideUp();
+			$('.menu li').removeClass('activado');
+			$(this).addClass('activado');
+			$(this).children('ul').slideDown();
+		}
+	});
+});
