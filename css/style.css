@@ -3,6 +3,7 @@
 	margin:5px;
 	/*overflow:hidden;*/
 	box-sizing: border-box;
+	brackground: #08298A
 	font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -28,6 +29,7 @@
 				background-position: center;
 				background-repeat: no-repeat;
 				background-attachment: center;
+				font-family: 'Libre Franklin', sans-serif;
 	}
 		.aside-a{
 			flex:auto;
@@ -36,6 +38,7 @@
 			color:#08298A;
 			/*align-self:center;*/
 			text-shadow: 2px 2px 2px #BBB;
+			font-family: 'Libre Franklin', sans-serif;
 		}
 		.aside-a img{
 			float:right;
@@ -46,6 +49,7 @@
 		display: flex;
 		flex-flow:row nowrap;
 		background:#FFF;
+		font-family: 'Libre Franklin', sans-serif;
 	}
 		.nav-contenedor{
 			flex: 0 1 auto;
@@ -62,6 +66,7 @@
 			    border-style: solid;
 			    border-width: 5px;
 				background:#F0B429;
+				font-family: 'Libre Franklin', sans-serif;
 			}
 			.nav-contenedor li a{
 				color:#FFF;
@@ -97,30 +102,11 @@
 			flex-flow:row nowrap;
 			background:#08298A;
 			font-family: 'Libre Franklin', sans-serif;
-		}
-		
-		.section row-1{
-			font-size: 20px;
-			padding: 10px;
-			color: #FFFFFF
-			font-family: 'Libre Franklin', sans-serif;
-		}
-		
-		.section h1{
-			font-size: 20px;
-			padding: 10px;
-			color: #FFFFFF
-			font-family: 'Libre Franklin', sans-serif;
-		}
-					
-		.section p{
-			font-size: 20px;
-			padding: 10px;
-			color: #FFFFFF
-			font-family: 'Libre Franklin', sans-serif;
-		}
+			color: white
 			
-			.aside-c{
+		}
+		
+		.aside-c{
 				display: flex;
 				flex-flow:row nowrap;
 			}
@@ -130,9 +116,12 @@
 					.twitter img{
 						height:500px;
 					}
+					
 				.row-1{
 					flex:1 1 auto;
 				}
+			
+				
 
 		/* Contador de Visitas */
 		.contador{
