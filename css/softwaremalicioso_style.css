@@ -1,3 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -109,15 +114,15 @@
 	
 	
 /* Secciones */
-
 #contenido{
 	float: left;
 	background: #004669;
 	border-radius: 10px;
 	overflow: hidden;
+	color: #FFF;
 	}
 	
-.articulo h2{
+.articulos h2{
 	font-family: 'Libre Franklin', sans-serif;
 	color: #FFF;
 	margin-left: 20px;
@@ -127,25 +132,16 @@
 	text-align: center;
 	}
 	
-.articulo p{
-	font-family: 'Libre Franklin', sans-serif;
+.articulos frame{
 	color: #FFF;
-	margin-left: 20px;
-	margin-right: 20px; 
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Libre Franklin', sans-serif;
+	text-decoration: none;	
 	}
-	
-.articulo img{
-	float: none;
-	margin: 10px;
-	text-align: center;
-	}
-	
 
-
-/* Pie de Página */
+		
+	/* Pie de Página */
 .footer{
 	display: flex;
 	flex-flow:row nowrap;

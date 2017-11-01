@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -96,6 +99,7 @@
 
 	/* Slider */
 .slider{
+	background-color: ;
 	flex: 3 1 auto;
 	}
 		
@@ -106,8 +110,7 @@
 	background-repeat: no-repeat;
 	background-attachment: center;
 	}
-	
-	
+
 /* Secciones */
 
 #contenido{
@@ -115,37 +118,44 @@
 	background: #004669;
 	border-radius: 10px;
 	overflow: hidden;
+	color: #FFF;
 	}
 	
 .articulo h2{
 	font-family: 'Libre Franklin', sans-serif;
-	color: #FFF;
-	margin-left: 20px;
-	margin-right: 20px; 
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-align: center;
+	margin-left: 25px;
+	margin-right: 25px; 
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: right;
+	}
+	
+.articulo h3{
+	font-family: 'Libre Franklin', sans-serif;
+	margin-left: 25px;
+	margin-right: 25px; 
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: left;
 	}
 	
 .articulo p{
 	font-family: 'Libre Franklin', sans-serif;
-	color: #FFF;
-	margin-left: 20px;
-	margin-right: 20px; 
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-left: 25px;
+	margin-right: 25px; 
+	margin-top: 25px;
+	margin-bottom: 25px;
 	text-align: left;
 	}
 	
 .articulo img{
 	float: none;
 	margin: 10px;
-	text-align: center;
-	}
 	
-
-
-/* Pie de Página */
+	}
+		
+	
+	/* Pie de Página */
 .footer{
 	display: flex;
 	flex-flow:row nowrap;
@@ -169,7 +179,7 @@
 	color: #FFF
 	}
 			
-.footContactTextES.{
+footContactTextES.{
 	width: 48%;
 	float: left;
 	font-size: 10px;
@@ -179,7 +189,7 @@
 	line-height:14px;
 	}
 						
-.mapasitio{
+	.mapasitio{
 	flex:1 1 auto;
 	background-color: black;
 	color: #FFF
@@ -199,3 +209,4 @@
 	}
 }
 \ No newline at end of file
+

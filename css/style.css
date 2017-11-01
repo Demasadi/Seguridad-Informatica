@@ -4,23 +4,29 @@
 	box-sizing: border-box;
 	font-family: 'Libre Franklin', sans-serif;
 	}
+	
 
 /* Contenedor Padre */
 .wrapper-padre{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	padding:5px;
 	display:flex;
 	brackground: #004669;
 	flex-flow:column nowrap;
 	}
-
+	
 	/* Elementos Hijos */
 
 	/* Encabezado */
 .header{
-	display:;
-	align-items: ;
-	flex-flow:;
-	/*background-color:#004669;*/
+	display: flex;
+	align-items:center ;
+	flex-flow: row nowrap;
 	background-image: none;
 	background-size: cover;
 	background-position: center;
@@ -34,17 +40,15 @@
 	
 .aside-a h1{
 	color: #004669;
-	/*align-self:left;*/
 	text-shadow: 2px 2px 2px #BBB;
 	align-items: left;
 	text-align: left;
 	}
 	
-.aside-a figure img{
-	display: block;
-	margin: auto;
+.figure img{
 	background: #FFF;
-	float: right;
+	margin-top: 15px;
+    width: 315px;	
 }
 
 /* Menú lateral */
@@ -71,21 +75,10 @@
 	list-style: none;
 	text-align: center;
     border-style: none ;
-	border-width: 5px;
+	border-width: 10px;
     background-color:#e7b200;
 	}
 			
-.nav-contenerdor ul li a{
-	border-bottom: 2px solid #FFF;
-	display: block;
-	padding: .7em 5em;
-	padding-top: 0.7em;
-	padding-right: 20px;
-	padding-bottom: 0.7em;
-	padding-left: 0.5em;
-	padding-right: 20px;
-	text-decoration: none;
-	}
 			
 .nav-contenedor li a{
 	color:#FFF;
@@ -116,13 +109,16 @@
 	}
 		
 /* Secciones */
-.section{
-	display: flex;
-	flex-flow:row nowrap;
-	background-color: #004669;
-	border-radius: 05px;
+
+#contenido{
+	float: left;
+	width: 650px;
+	background: #004669;
+	border-radius: 10px;
+	overflow: hidden;
 	}
 	
+
 .aside-c{
 	display: flex;
 	flex-flow:row nowrap;
@@ -137,15 +133,28 @@
 	}
 	
 .row-1{
-	flex:1 1 auto;
 	font-family: 'Libre Franklin', sans-serif;
 	color: #FFF;
 	margin-left: 20px;
 	margin-right: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
 	}
+	
+.aside-a{
+	text-align: right;
+	}
+
 
 /* Contador de Visitas */
 .contador{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	flex:auto;
 	background-color: #E3E3E3;
 	font-family: 'Libre Franklin', sans-serif;
@@ -156,6 +165,12 @@
 	display: flex;
 	flex-flow:row nowrap;
 	background-color: black;
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	}
 		
 .logo img{
