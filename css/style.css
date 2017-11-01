@@ -3,7 +3,7 @@
 	/*overflow:hidden;*/
 	box-sizing: border-box;
 	font-family: 'Libre Franklin', sans-serif;
-}
+	}
 
 /* Contenedor Padre */
 .wrapper-padre{
@@ -11,183 +11,191 @@
 	display:flex;
 	brackground: #004669;
 	flex-flow:column nowrap;
-}
+	}
 
 	/* Elementos Hijos */
 
 	/* Encabezado */
-	.header{
-		display:;
-		align-items: ;
-		flex-flow:;
-		/*background-color:#004669;*/
-				background-image: ;
-				background-size:;
-				background-position: ;
-				background-repeat:;
-				background-attachment:;
+.header{
+	display:;
+	align-items: ;
+	flex-flow:;
+	/*background-color:#004669;*/
+	background-image: none;
+	background-size: cover;
+	background-position: center;
+	background-repeat:no- repeat;
+	background-attachment: center;
 	}
-		.aside-a{
-			flex:;
-		}
-		.aside-a h1{
-			color: #004669;
-			/*align-self:center;*/
-			text-shadow: 2px 2px 2px #BBB;
-			align-items: left;
-		}
-		.aside-a img{
-			float: right;
-		}
 
-	/* Menú lateral */
-	.subheader{
-		display:flex;
-		flex-flow:row nowrap;
-		background-color: #e7b200;
+.aside-a{
+	flex: 0;
 	}
-		.nav-contenedor{
-			flex: 0  auto;
-			background-color: #e7b200;
-			font-family: 'Libre Franklin', sans-serif;
-			vertical-align: left;
-		}
-			.nav-contenedor ul{
-				padding:0;
-				margin:0;
-			}
-			.nav-contenedor li{	
-				padding:10px;		
-				list-style: none;
-				text-align: center;
-			    border-style: none ;
-			    border-width: 5px;
-				background-color:#e7b200;
-			}
-			
-			.nav-contenerdor ul li a{
-				border-bottom: 2px solid #FFF;
-				display: block;
-				padding: .7em 5em;
-					padding-top: 0.7em;
-					padding-right: 20px;
-					padding-bottom: 0.7em;
-					padding-left: 0.5em;
-				padding-right: 20px;
-				text-decoration: none;
-			}
-			
-			.nav-contenedor li a{
-				color:#FFF;
-				vertical-align: left;
-				text-decoration: none;
-			}
-			.nav-contenedor li a:hover{
-				background-color: #C7C7C7;
-			}
+	
+.aside-a h1{
+	color: #004669;
+	/*align-self:left;*/
+	text-shadow: 2px 2px 2px #BBB;
+	align-items: left;
+	text-align: left;
+	}
+	
+.aside-a figure img{
+	display: block;
+	margin: auto;
+	background: #FFF;
+	float: right;
+}
 
-			.submenu li a{
-				cursor:pointer;
-			}
+/* Menú lateral */
+.subheader{
+	display: flex;
+	flex-flow:row nowrap;
+	background-color: #e7b200;
+	border-radius: 05px;
+    }
 
-		/* Slider */
-		.slider{
-			background-color: ;
-			flex: 3 1 auto;
-		}
+.nav-contenedor{
+	flex: 0  auto;
+	background-color: #e7b200;
+	font-family: 'Libre Franklin', sans-serif;
+	vertical-align: left;
+	}
+	
+.nav-contenedor ul{
+	padding:0;
+	margin:0;
+			}
+.nav-contenedor li{	
+	padding:10px;		
+	list-style: none;
+	text-align: center;
+    border-style: none ;
+	border-width: 5px;
+    background-color:#e7b200;
+	}
+			
+.nav-contenerdor ul li a{
+	border-bottom: 2px solid #FFF;
+	display: block;
+	padding: .7em 5em;
+	padding-top: 0.7em;
+	padding-right: 20px;
+	padding-bottom: 0.7em;
+	padding-left: 0.5em;
+	padding-right: 20px;
+	text-decoration: none;
+	}
+			
+.nav-contenedor li a{
+	color:#FFF;
+	vertical-align: left;
+	text-decoration: none;
+	}
+			
+.nav-contenedor li a:hover{
+	background-color: #C7C7C7;
+	}
+
+.submenu li a{
+	cursor:pointer;
+	}
+
+	/* Slider */
+.slider{
+	background-color: ;
+	flex: 3 1 auto;
+	}
 		
-			.container{
-				.container{
-				background-image: url(img/matrix-2503236_1280.jpg);
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-attachment: center;
-			}
+.container{
+	background-image: url(img/matrix-2503236_1280.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: center;
+	}
 		
-		/* Secciones */
-		.section{
-			display: flex;
-			flex-flow:row nowrap;
-			background-color: #004669;
-		}
-			.aside-c{
-				display: flex;
-				flex-flow:row nowrap;
-			}
-				.twitter{
-					flex:1 1 auto;
-				}
-					.twitter img{
-						height:500px;
-					}
-				.row-1{
-					flex:1 1 auto;
-					font-family: 'Libre Franklin', sans-serif;
-					color: #FFF;
-					margin-left: 20px;
-					margin-right: 20px; 
-				}
-
-		/* Contador de Visitas */
-		.contador{
-			flex:auto;
-			background-color: #E3E3E3;
-			font-family: 'Libre Franklin', sans-serif;
-		}
-
-		/* Pie de Página */
-		.footer{
-			display: flex;
-			flex-flow:row nowrap;
-			background-color: black;
-		}
-			.logo img{
-				width:200px;
-			}
-
-			.licencia{
-				flex:1 1 auto;
-				background-color: black;
-				font-family: 'Libre Franklin', sans-serif;
-				color: #FFF
-			}
-			
-			footContactTextES.{
-				width: 48%;
-				float: left;
-				font-size: 10px;
-				padding-left: 2%;
-				padding-top: 15px;
-				text-align: Left;
-				line-height:14px;
+/* Secciones */
+.section{
+	display: flex;
+	flex-flow:row nowrap;
+	background-color: #004669;
+	border-radius: 05px;
+	}
+	
+.aside-c{
+	display: flex;
+	flex-flow:row nowrap;
+	}
 				
-			}
-						
-			.mapasitio{
-				flex:1 1 auto;
-				background-color: black;
-				color: #FFF
-			}
-			
-				footContactTextEN.{
-				width: 48%;
-				float: left;
-				font-size: 10px;
-				text-align: left;
-				line-height:14px;
-			}
+.twitter{
+	flex:1 1 auto;
+	}
+	
+.twitter img{
+	height:500px;
+	}
+	
+.row-1{
+	flex:1 1 auto;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFF;
+	margin-left: 20px;
+	margin-right: 20px; 
+	}
 
+/* Contador de Visitas */
+.contador{
+	flex:auto;
+	background-color: #E3E3E3;
+	font-family: 'Libre Franklin', sans-serif;
+	}
+
+/* Pie de Página */
+.footer{
+	display: flex;
+	flex-flow:row nowrap;
+	background-color: black;
+	}
+		
+.logo img{
+	width:200px;
+	}
+
+.licencia{
+	flex:1 1 auto;
+	background-color: black;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFF
+	}
+			
+footContactTextES.{
+	width: 48%;
+	float: left;
+	font-size: 10px;
+	padding-left: 2%;
+	padding-top: 15px;
+	text-align: Left;
+	line-height:14px;
+	}
+						
+	.mapasitio{
+	flex:1 1 auto;
+	background-color: black;
+	color: #FFF
+	}
+			
+		
 
 
 /* Para Dispositivos */
 @media all and (max-width:800px){
 	.nav-contenedor{
-		flex-direction: column;
+	flex-direction: column;
 	}
 
 	.section{
-		flex-direction: column;
+	flex-direction: column;
 	}
 }
 \ No newline at end of file

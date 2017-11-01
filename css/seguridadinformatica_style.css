@@ -1,8 +1,9 @@
 *{
-	margin: 0;
-	padding: 0;
-}
-
+	margin:5px;
+	/*overflow:hidden;*/
+	box-sizing: border-box;
+	font-family: 'Libre Franklin', sans-serif;
+	}
 
 body{
 	background: #004669
@@ -31,4 +32,3 @@ header figure img{
 	background: #FFF;
 	float: right;
 }
-
