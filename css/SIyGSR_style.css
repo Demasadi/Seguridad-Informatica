@@ -110,24 +110,15 @@
 	background-repeat: no-repeat;
 	background-attachment: center;
 	}
-
+	
 /* Secciones */
 
 #contenido{
 	float: left;
+	width:  1000px;
 	background: #004669;
 	border-radius: 10px;
 	overflow: hidden;
-	color: #FFF;
-	}
-	
-.articulo h2{
-	font-family: 'Libre Franklin', sans-serif;
-	margin-left: 25px;
-	margin-right: 25px; 
-	margin-top: 25px;
-	margin-bottom: 25px;
-	text-align: right;
 	}
 	
 .articulo figure img{
@@ -137,25 +128,27 @@
 	border-radius: 10px;
 	}
 	
-.articulo h3{
+.articulo h2{
 	font-family: 'Libre Franklin', sans-serif;
-	margin-left: 25px;
-	margin-right: 25px; 
-	margin-top: 25px;
-	margin-bottom: 25px;
-	text-align: left;
+	color: #FFF;
+	margin-left: 20px;
+	margin-right: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
 	}
 	
 .articulo p{
 	font-family: 'Libre Franklin', sans-serif;
-	margin-left: 25px;
-	margin-right: 25px; 
-	margin-top: 25px;
-	margin-bottom: 25px;
-	text-align: left;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-right: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
 	}
-
-		
+	
+	
+	
 	
 	/* Pie de Página */
 .footer{
@@ -181,7 +174,6 @@
 	color: #FFF
 	}
 			
-			
 .footContactTextES{
 	width: 48%;
 	float: left;
@@ -201,10 +193,7 @@
 	text-align: right;
 	line-height:14px;
 }
-	
-			
 		
-
 
 /* Para Dispositivos */
 @media all and (max-width:800px){
@@ -217,4 +206,3 @@
 	}
 }
 \ No newline at end of file
-
