@@ -19,32 +19,37 @@
 
 	/* Encabezado */
 .header{
-	display: flex;
-	align-items:center ;
-	flex-flow: row nowrap;
-	background-image: none;
-	background-size: cover;
-	background-position: center;
-	background-repeat:no- repeat;
-	background-attachment: center;
-	}
-
+	background-image: url(../img/logoUNAD.png);
+    background-position: right;
+	align-items: center;
+    background-repeat: no-repeat;
+    background-size:325px 135px;
+    width: 1000px;
+    height: 145px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+	
 .aside-a{
 	flex: 0;
 	}
 	
 .aside-a h1{
 	color: #004669;
-	text-shadow: 2px 2px 2px #BBB;
-	align-items: left;
-	text-align: left;
+	margin-left: ;
+	align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 0px;
 	}
 	
 .figure img{
 	background: #FFF;
+	text align: right;	
 	margin-top: 15px;
     width: 315px;
-	border-radius: 10px;	
 }
 
 /* Menú lateral */
