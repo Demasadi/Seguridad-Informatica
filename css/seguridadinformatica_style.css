@@ -1,3 +1,4 @@
+/* Para todos los elementos */
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -36,6 +37,7 @@
 	
 .aside-a h1{
 	color: #004669;
+	margin-left: ;
 	align-items: center;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
@@ -55,7 +57,7 @@
 	display: flex;
 	flex-flow:row nowrap;
 	background-color: #e7b200;
-	border-radius: 10px;
+	border-radius: 05px;
     }
 
 .nav-contenedor{
@@ -75,7 +77,8 @@
 	text-align: center;
     border-style: none ;
 	border-width: 10px;
-    }
+    background-color:#e7b200;
+	}
 			
 			
 .nav-contenedor li a{

@@ -1,6 +1,4 @@
-@charset "utf-8";
-/* CSS Document */
-
+/* Para todos los elementos */
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -112,7 +110,6 @@
 	background-attachment: center;
 	border-radius: 10px
 	}
-	
 	
 /* Secciones */		
 #contenido{

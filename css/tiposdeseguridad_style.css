@@ -110,7 +110,6 @@
 	background-attachment: center;
 	border-radius: 10px
 	}
-
 /* Secciones */
 
 #contenido{
@@ -156,7 +155,7 @@
 
 		
 	
-	/* Pie de Página */
+/* Pie de Página */
 .footer{
 	display: flex;
 	flex-flow:row nowrap;
@@ -170,7 +169,7 @@
 	}
 		
 .logo img{
-	width:200px;
+	width: 150px;
 	}
 
 .licencia{
@@ -200,8 +199,7 @@
 	text-align: right;
 	line-height:14px;
 }
-	
-			
+		
 		
 
 
@@ -216,4 +214,3 @@
 	}
 }
 \ No newline at end of file
-

@@ -1,6 +1,4 @@
-@charset "utf-8";
-/* CSS Document */
-
+/* Para todos los elementos */
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -12,15 +10,9 @@
 /* Contenedor Padre */
 .wrapper-padre{
 	width: 1100px;
+	height: auto;
 	margin: auto;
-	overflow: hidden;
-	border-radius: 10px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding:5px;
-	display:flex;
-	brackground: #004669;
-	flex-flow:column nowrap;
+	position: relative;
 	}
 	
 	/* Elementos Hijos */
@@ -38,23 +30,26 @@
     margin-bottom: 15px;
     margin-left: 50px;
 }
-	}
-
+	
 .aside-a{
 	flex: 0;
 	}
 	
 .aside-a h1{
 	color: #004669;
-	text-shadow: 2px 2px 2px #BBB;
-	align-items: left;
-	text-align: left;
+	margin-left: ;
+	align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 0px;
 	}
 	
 .figure img{
 	background: #FFF;
+	text align: right;	
 	margin-top: 15px;
-    width: 315px;	
+    width: 315px;
 }
 
 /* Menú lateral */
@@ -93,7 +88,7 @@
 	}
 			
 .nav-contenedor li a:hover{
-	background-color: #C7C7C7;
+	background-color: #004669;
 	}
 
 .submenu li a{
@@ -102,8 +97,9 @@
 
 	/* Slider */
 .slider{
-	background-color: ;
-	flex: 3 1 auto;
+	background-color: #e7b200;
+	flex: auto;
+	border-radius: 10px
 	}
 		
 .container{
@@ -112,6 +108,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: center;
+	border-radius: 10px
 	}
 	
 /* Secciones */
