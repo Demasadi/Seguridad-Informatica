@@ -40,7 +40,7 @@
 	margin-left: ;
 	align-items: center;
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     text-align: left;
     margin-top: 0px;
 	}
@@ -88,7 +88,7 @@
 	}
 			
 .nav-contenedor li a:hover{
-	background-color: #C7C7C7;
+	background-color: #004669;
 	}
 
 .submenu li a{
@@ -145,12 +145,13 @@
 
 section{
 	width: 500px;
-	float: right;
+	float: left;
 	border-syle: solid;
 	border-color: #004669;
 	border-top-right-radius: 10px;
 	border-bottom-left--radius: 10px;
 	martin-bottm; 10px;
+	
 	}	
 	
 	
@@ -158,18 +159,18 @@ section{
 .aside{
 	width: 500px;
 	border-color; 004669;
+	float: left;
 	border-style; solid;
-	text-align: right;
 	border-bottom-left-radius:10px;
 	border-top-right-radius: 10px;	
 	margin-bottom: 10px;
-	margin-left
+	
 	}
 
 
 /* Contador de Visitas */
 .contador{
-	width: 1000px;
+	width: 1100px;
 	margin: auto;
 	overflow: hidden;
 	border-radius: 10px;
@@ -185,7 +186,7 @@ section{
 	display: flex;
 	flex-flow:row nowrap;
 	background-color: black;
-	width: 1000px;
+	width: 1100px;
 	margin: auto;
 	overflow: hidden;
 	border-radius: 10px;
@@ -194,7 +195,7 @@ section{
 	}
 		
 .logo img{
-	width:200px;
+	width: 150px;
 	}
 
 .licencia{
