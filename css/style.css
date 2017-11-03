@@ -1,3 +1,4 @@
+/* Para todos los elementos */
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -8,16 +9,10 @@
 
 /* Contenedor Padre */
 .wrapper-padre{
-	width: 1000px;
+	width: 1100px;
+	height: auto;
 	margin: auto;
-	overflow: hidden;
-	border-radius: 10px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding:5px;
-	display:flex;
-	brackground: #004669;
-	flex-flow:column nowrap;
+	position: relative;
 	}
 	
 	/* Elementos Hijos */
@@ -48,7 +43,8 @@
 .figure img{
 	background: #FFF;
 	margin-top: 15px;
-    width: 315px;	
+    width: 315px;
+	border-radius: 10px;	
 }
 
 /* Menú lateral */
@@ -111,7 +107,7 @@
 /* Secciones */
 
 #contenido{
-	float: left;
+	float: right;
 	width: 650px;
 	background: #004669;
 	border-radius: 10px;
@@ -141,9 +137,28 @@
 	margin-bottom: 20px;
 	text-align: left;
 	}
+
+section{
+	width: 500px;
+	float: right;
+	border-syle: solid;
+	border-color: #004669;
+	border-top-right-radius: 10px;
+	border-bottom-left--radius: 10px;
+	martin-bottm; 10px;
+	}	
 	
-.aside-a{
+	
+	
+.aside{
+	width: 500px;
+	border-color; 004669;
+	border-style; solid;
 	text-align: right;
+	border-bottom-left-radius:10px;
+	border-top-right-radius: 10px;	
+	margin-bottom: 10px;
+	margin-left
 	}
 
 
