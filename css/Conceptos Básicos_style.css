@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -36,6 +39,7 @@
 	
 .aside-a h1{
 	color: #004669;
+	margin-left: ;
 	align-items: center;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
@@ -75,7 +79,8 @@
 	text-align: center;
     border-style: none ;
 	border-width: 10px;
-    }
+    background-color:#e7b200;
+	}
 			
 			
 .nav-contenedor li a{
@@ -108,52 +113,25 @@
 	border-radius: 10px
 	}
 	
-/* Secciones */
 	
+/* Secciones */		
 #contenido{
-	width: 1100px;
+	width: 650px;
 	background: #004669;
 	border-radius: 10px;
 	overflow: hidden;
-	font-family: 'Libre Franklin', sans-serif;
+}
+
+h3 {
+    margin-top: 15px;
+    font-family: 'Libre Franklin', sans-serif;
 	color: #FFF;
-	}
-	
-.articulo{
-	width: 1000px;
-	float: left;
-	border-syle: solid;
-	border-color: #004669;
-	border-top-right-radius: 10px;
-	border-bottom-left--radius: 10px;
-	martin-bottm; 10px;
-	}
-	
-.articulo h2{
-	font-family: 'Libre Franklin', sans-serif;
-	color: #FFF;
-	margin-left: 20px;
-	margin-right: 20px; 
-	margin-top: 20px;
-	margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.iframe{
 	text-align: center;
-	}
-	
-.articulo p{
-	font-family: 'Libre Franklin', sans-serif;
-	color: #FFF;
-	margin-left: 20px;
-	margin-right: 20px; 
-	margin-top: 20px;
-	margin-bottom: 20px;
-	}
-	
-.articulo img{
-	float: none;
-	margin: 10px;
-	text-align: center;
-	}
-	
+}
 
 /* Pie de Página */
 .footer{

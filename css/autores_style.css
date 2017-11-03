@@ -1,3 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
 *{
 	margin:5px;
 	/*overflow:hidden;*/
@@ -9,9 +12,15 @@
 /* Contenedor Padre */
 .wrapper-padre{
 	width: 1100px;
-	height: auto;
 	margin: auto;
-	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding:5px;
+	display:flex;
+	brackground: #004669;
+	flex-flow:column nowrap;
 	}
 	
 	/* Elementos Hijos */
@@ -29,25 +38,23 @@
     margin-bottom: 15px;
     margin-left: 50px;
 }
-	
+	}
+
 .aside-a{
 	flex: 0;
 	}
 	
 .aside-a h1{
 	color: #004669;
-	align-items: center;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 40px;
-    text-align: left;
-    margin-top: 0px;
+	text-shadow: 2px 2px 2px #BBB;
+	align-items: left;
+	text-align: left;
 	}
 	
 .figure img{
 	background: #FFF;
-	text align: right;	
 	margin-top: 15px;
-    width: 315px;
+    width: 315px;	
 }
 
 /* Menú lateral */
@@ -75,7 +82,8 @@
 	text-align: center;
     border-style: none ;
 	border-width: 10px;
-    }
+    background-color:#e7b200;
+	}
 			
 			
 .nav-contenedor li a{
@@ -85,7 +93,7 @@
 	}
 			
 .nav-contenedor li a:hover{
-	background-color: #004669;
+	background-color: #C7C7C7;
 	}
 
 .submenu li a{
@@ -94,9 +102,8 @@
 
 	/* Slider */
 .slider{
-	background-color: #e7b200;
-	flex: auto;
-	border-radius: 10px
+	background-color: ;
+	flex: 3 1 auto;
 	}
 		
 .container{
@@ -105,55 +112,82 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: center;
-	border-radius: 10px
 	}
 	
 /* Secciones */
-	
-#contenido{
-	width: 1100px;
-	background: #004669;
-	border-radius: 10px;
-	overflow: hidden;
-	font-family: 'Libre Franklin', sans-serif;
-	color: #FFF;
+
+.article {
+    width: 650px;
+    margin-right: 30px;
+    margin-left: 10px;
+    z-index: 0;
+    position: relative;
+	brackground: #004669;
+	text-align: left;
 	}
 	
-.articulo{
-	width: 1000px;
+.h3{
+    margin-top: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFF;
+    }	
+	
+.foto{
+    width: 350px;
+    height: auto;
+	text-align: left;
+	}
+	
+.figure img{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+	
+.figure img{
+	width: 850px;
+    height: auto;
+	}
+
+
+.articulo a{
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-right: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-align: left;
+	}
+	
+	
+.aside{
+	width: 500px;
+	border-color; 004669;
 	float: left;
-	border-syle: solid;
-	border-color: #004669;
-	border-top-right-radius: 10px;
-	border-bottom-left--radius: 10px;
-	martin-bottm; 10px;
-	}
+	border-style; solid;
+	border-bottom-left-radius:10px;
+	border-top-right-radius: 10px;	
+	margin-bottom: 10px;
 	
-.articulo h2{
-	font-family: 'Libre Franklin', sans-serif;
-	color: #FFF;
-	margin-left: 20px;
-	margin-right: 20px; 
+	}
+
+
+/* Contador de Visitas */
+.contador{
+	width: 1100px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	text-align: center;
-	}
-	
-.articulo p{
+	flex:auto;
+	background-color: #e7b200;
 	font-family: 'Libre Franklin', sans-serif;
-	color: #FFF;
-	margin-left: 20px;
-	margin-right: 20px; 
-	margin-top: 20px;
-	margin-bottom: 20px;
 	}
-	
-.articulo img{
-	float: none;
-	margin: 10px;
-	text-align: center;
-	}
-	
 
 /* Pie de Página */
 .footer{
