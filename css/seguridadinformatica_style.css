@@ -8,47 +8,47 @@
 
 /* Contenedor Padre */
 .wrapper-padre{
-	width: 1000px;
+	width: 1100px;
+	height: auto;
 	margin: auto;
-	overflow: hidden;
-	border-radius: 10px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding:5px;
-	display:flex;
-	brackground: #004669;
-	flex-flow:column nowrap;
+	position: relative;
 	}
 	
 	/* Elementos Hijos */
 
 	/* Encabezado */
 .header{
-	display: flex;
-	align-items:center ;
-	flex-flow: row nowrap;
-	background-image: none;
-	background-size: cover;
-	background-position: center;
-	background-repeat:no- repeat;
-	background-attachment: center;
-	}
-
+	background-image: url(../img/logoUNAD.png);
+    background-position: right;
+	align-items: center;
+    background-repeat: no-repeat;
+    background-size:325px 135px;
+    width: 1000px;
+    height: 145px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+	
 .aside-a{
 	flex: 0;
 	}
 	
 .aside-a h1{
 	color: #004669;
-	text-shadow: 2px 2px 2px #BBB;
-	align-items: left;
-	text-align: left;
+	margin-left: ;
+	align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 0px;
 	}
 	
 .figure img{
 	background: #FFF;
+	text align: right;	
 	margin-top: 15px;
-    width: 315px;	
+    width: 315px;
 }
 
 /* Menú lateral */
@@ -87,7 +87,7 @@
 	}
 			
 .nav-contenedor li a:hover{
-	background-color: #C7C7C7;
+	background-color: #004669;
 	}
 
 .submenu li a{
@@ -96,7 +96,9 @@
 
 	/* Slider */
 .slider{
-	flex: 3 1 auto;
+	background-color: #e7b200;
+	flex: auto;
+	border-radius: 10px
 	}
 		
 .container{
@@ -105,16 +107,17 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: center;
+	border-radius: 10px
 	}
-	
 	
 /* Secciones */
 
 #contenido{
-	float: left;
+	width: auto;
 	background: #004669;
 	border-radius: 10px;
 	overflow: hidden;
+	color: #FFF;
 	}
 	
 .articulo h2{
@@ -145,12 +148,13 @@
 	
 
 
+
 /* Pie de Página */
 .footer{
 	display: flex;
 	flex-flow:row nowrap;
 	background-color: black;
-	width: 1000px;
+	width: 1100px;
 	margin: auto;
 	overflow: hidden;
 	border-radius: 10px;
@@ -159,7 +163,7 @@
 	}
 		
 .logo img{
-	width:200px;
+	width: 150px;
 	}
 
 .licencia{
