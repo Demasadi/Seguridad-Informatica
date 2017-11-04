@@ -1,0 +1,209 @@
+/* Para todos los elementos */
+*{
+	margin:5px;
+	/*overflow:hidden;*/
+	box-sizing: border-box;
+	font-family: 'Libre Franklin', sans-serif;
+	}
+	
+
+/* Contenedor Padre */
+.wrapper-padre{
+	width: 1100px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	}
+	
+	/* Elementos Hijos */
+
+	/* Encabezado */
+.header{
+	background-image: url(../img/logoUNAD.png);
+    background-position: right;
+	align-items: center;
+    background-repeat: no-repeat;
+    background-size:325px 135px;
+    width: 1000px;
+    height: 145px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+	
+.aside-a{
+	flex: 0;
+	}
+	
+.aside-a h1{
+	color: #004669;
+	margin-left: ;
+	align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 0px;
+	}
+	
+.figure img{
+	background: #FFF;
+	text align: right;	
+	margin-top: 15px;
+    width: 315px;
+}
+
+/* Menú lateral */
+.subheader{
+	display: flex;
+	flex-flow:row nowrap;
+	background-color: #e7b200;
+	border-radius: 05px;
+    }
+
+.nav-contenedor{
+	flex: 0  auto;
+	background-color: #e7b200;
+	font-family: 'Libre Franklin', sans-serif;
+	vertical-align: left;
+	}
+	
+.nav-contenedor ul{
+	padding:0;
+	margin:0;
+			}
+.nav-contenedor li{	
+	padding:10px;		
+	list-style: none;
+	text-align: center;
+    border-style: none ;
+	border-width: 10px;
+    background-color:#e7b200;
+	}
+			
+			
+.nav-contenedor li a{
+	color:#FFF;
+	vertical-align: left;
+	text-decoration: none;
+	}
+			
+.nav-contenedor li a:hover{
+	background-color: #004669;
+	}
+
+.submenu li a{
+	cursor:pointer;
+	}
+
+	/* Slider */
+.slider{
+	background-color: #e7b200;
+	flex: auto;
+	border-radius: 10px
+	}
+		
+.container{
+	background-image: url(img/matrix-2503236_1280.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: center;
+	border-radius: 10px
+	}
+	
+/* Secciones */
+
+#contenido{
+	float: left;
+	width:  1000px;
+	background: #004669;
+	border-radius: 10px;
+	overflow: hidden;
+	}
+	
+.articulo figure img{
+	width: 520px;
+    height: 320px;
+	text-align: center;
+	border-radius: 10px;
+	}
+	
+.articulo h2{
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFF;
+	margin-left: 20px;
+	margin-right: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	}
+	
+.articulo p{
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-right: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+	
+	
+/* Pie de Página */
+.footer{
+	display: flex;
+	flex-flow:row nowrap;
+	background-color: black;
+	width: 1100px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+		
+.logo img{
+	width: 150px;
+	}
+
+.licencia{
+	flex:1 1 auto;
+	background-color: black;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFF
+	}
+			
+			
+.footContactTextES{
+	width: 48%;
+	float: left;
+	font-size: 12px;
+	padding-left: 15px;
+	padding-top: 5px;
+	text-align: Left;
+	line-height:14px;
+	}
+						
+.footContactTextES h5{
+	width: 48%;
+	float: right;
+	font-size: 12px;
+	padding-left: 2%;
+	padding-top: 80px;
+	text-align: right;
+	line-height:14px;
+}
+		
+		
+
+
+/* Para Dispositivos */
+@media all and (max-width:800px){
+	.nav-contenedor{
+	flex-direction: column;
+	}
+
+	.section{
+	flex-direction: column;
+	}
+}
+\ No newline at end of file
