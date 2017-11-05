@@ -28,8 +28,21 @@
     margin-right: 15px;
 }
 	
-.aside-a{
+	/* Elementos Hijos */
+
+	/* Encabezado */
+.header{
+	background-image: url(../img/logoUNAD.png);
+    background-position: right;
+	background-repeat: no-repeat;
+    background-size: 340px 130px;
+    width: 1100px;
+    height: 145px;
+    margin-right: 15px;
+}
 	
+.aside-a{
+	flex: 0;
 	}
 	
 .aside-a h1{
@@ -114,48 +127,55 @@
 	border-radius: 10px;
 	}
 	
-	
 /* Secciones */
+	
 #contenido{
-	float: left;
+	width: 1100px;
 	background: #004669;
 	border-radius: 10px;
 	overflow: hidden;
+	font-family: 'Libre Franklin', sans-serif;
 	color: #FFF;
 	}
 	
-.articulo figure img{
-	float: none;
-	margin-left: 330px;
-	margin-right: 200px;
-	border-radius: 15px
+.articulos{
+	width: 1100px;
+	float: left;
+	border-syle: solid;
+	border-color: #004669;
+	border-top-right-radius: 10px;
+	border-bottom-left--radius: 10px;
+	martin-bottm; 10px;
+	}
 	
-.articulo h2{
+.articulos h2{
 	font-family: 'Libre Franklin', sans-serif;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	font:bold 12px
+	color: #FFF;
+	margin-left: 15px;
+	margin-right: 15px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
 	text-align: center;
 	}
-		
-.articulo h3{
+	
+.articulos p{
 	font-family: 'Libre Franklin', sans-serif;
-	margin-left: 25px;
-	margin-right: 25px; 
-	margin-top: 25px;
-	margin-bottom: 25px;
-	text-align: left;
+	color: #FFF;
+	margin-left: 15px;
+	margin-right: 15px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
 	}
 	
-.articulo p{
-	font-family: 'Libre Franklin', sans-serif;
-	margin-left: 25px;
-	margin-right: 25px; 
-	margin-top: 30px;
-	margin-bottom: 30px;
-	text-align: left;
+.articulos img{
+	float: none;
+	margin-left: 130px;
+	margin-right: 200px;
+	border-radius: 5px;
 	}
+	
 
-		
 /* Pie de Página */
 .footer{
 	display: flex;
@@ -201,7 +221,7 @@
 	line-height:14px;
 }
 		
-	
+		
 
 
 /* Para Dispositivos */

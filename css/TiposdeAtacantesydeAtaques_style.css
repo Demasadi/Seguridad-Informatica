@@ -28,6 +28,19 @@
     margin-right: 15px;
 }
 	
+	/* Elementos Hijos */
+
+	/* Encabezado */
+.header{
+	background-image: url(../img/logoUNAD.png);
+    background-position: right;
+	background-repeat: no-repeat;
+    background-size: 340px 130px;
+    width: 1100px;
+    height: 145px;
+    margin-right: 15px;
+}
+	
 .aside-a{
 	flex: 0;
 	}
@@ -113,8 +126,9 @@
 	background-attachment: center;
 	border-radius: 10px;
 	}
-		
-
+	
+/* Secciones */
+	
 #contenido{
 	width: 1100px;
 	background: #004669;
@@ -123,21 +137,46 @@
 	font-family: 'Libre Franklin', sans-serif;
 	color: #FFF;
 	}
-
-.articulo h2{
+	
+.articulos{
+	width: 1100px;
+	float: left;
+	border-syle: solid;
+	border-color: #004669;
+	border-top-right-radius: 10px;
+	border-bottom-left--radius: 10px;
+	martin-bottm; 10px;
+	}
+	
+.articulos h2{
 	font-family: 'Libre Franklin', sans-serif;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	font:bold 12px
+	color: #FFF;
+	margin-left: 15px;
+	margin-right: 15px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
 	text-align: center;
 	}
 	
-.articulo img{
+.articulos p{
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFF;
+	margin-left: 15px;
+	margin-right: 15px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+	
+.articulos img{
 	float: none;
-	margin-left: 330px;
+	width: 400px;
+	height: 400px;
+	margin-left: 300px;
 	margin-right: 200px;
 	border-radius: 5px;
 	}
-
+	
 
 /* Pie de Página */
 .footer{
