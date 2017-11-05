@@ -57,20 +57,25 @@
 	display: flex;
 	flex-flow:row nowrap;
 	background-color: #e7b200;
-	border-radius: 05px;
+	border-radius: 10px;
     }
 
 .nav-contenedor{
 	flex: 0  auto;
 	background-color: #e7b200;
 	font-family: 'Libre Franklin', sans-serif;
+	 font-weight: bold;
 	vertical-align: left;
+	border-radius: 10px;
 	}
 	
 .nav-contenedor ul{
 	padding:0;
 	margin:0;
-			}
+	background-color: #e7b200;
+	border-radius: 10px;
+}
+
 .nav-contenedor li{	
 	padding:10px;		
 	list-style: none;
@@ -97,9 +102,15 @@
 
 	/* Slider */
 .slider{
-	background-color: #e7b200;
 	flex: auto;
-	border-radius: 10px
+	border-radius: 10px;
+	}
+
+.slider img{
+	border-radius: 10px;
+	margin: 10px;
+	width: 850px;
+	height: 670px;
 	}
 		
 .container{
@@ -108,7 +119,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: center;
-	border-radius: 10px
+	border-radius: 10px;
 	}
 	
 /* Secciones */
@@ -154,8 +165,9 @@
 	
 .articulo img{
 	float: none;
-	margin: 10px;
-	text-align: center;
+	margin-left: 330px;
+	margin-right: 200px;
+	border-radius: 5px;
 	}
 	
 
