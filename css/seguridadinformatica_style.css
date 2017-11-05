@@ -94,8 +94,10 @@
 
 /* Slider */
 .slider{
+	background-color: #e7b200;
+	background-image: url(../img/matrix-2503236_1280.jpg);
 	flex: auto;
-	border-radius: 10px;
+	border-radius: 10px
 	}
 
 .slider img{
