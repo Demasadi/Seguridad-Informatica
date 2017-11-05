@@ -21,14 +21,11 @@
 .header{
 	background-image: url(../img/logoUNAD.png);
     background-position: right;
-	align-items: center;
-    background-repeat: no-repeat;
-    background-size:325px 135px;
-    width: 1000px;
+	background-repeat: no-repeat;
+    background-size: 340px 130px;
+    width: 1100px;
     height: 145px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 50px;
+    margin-right: 15px;
 }
 	
 .aside-a{
@@ -37,20 +34,15 @@
 	
 .aside-a h1{
 	color: #004669;
-	margin-left: ;
-	align-items: center;
-    font-family: 'Libre Franklin', sans-serif;
+	margin-left: 15px;
+	font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
     text-align: left;
-    margin-top: 0px;
+    margin-top: 10px;
+    width: 150px;
 	}
 	
-.figure img{
-	background: #FFF;
-	text align: right;	
-	margin-top: 15px;
-    width: 315px;
-}
+
 
 /* Menú lateral */
 .subheader{
@@ -81,7 +73,7 @@
 	list-style: none;
 	text-align: center;
     border-style: none ;
-	border-width: 10px;
+	border-radius: 10px;
     background-color:#e7b200;
 	}
 			
@@ -100,7 +92,7 @@
 	cursor:pointer;
 	}
 
-	/* Slider */
+/* Slider */
 .slider{
 	flex: auto;
 	border-radius: 10px;
