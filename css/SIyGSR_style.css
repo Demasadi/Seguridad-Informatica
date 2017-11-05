@@ -21,14 +21,24 @@
 .header{
 	background-image: url(../img/logoUNAD.png);
     background-position: right;
-	align-items: center;
-    background-repeat: no-repeat;
-    background-size:325px 135px;
-    width: 1000px;
+	background-repeat: no-repeat;
+    background-size: 340px 130px;
+    width: 1100px;
     height: 145px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 50px;
+    margin-right: 15px;
+}
+	
+	/* Elementos Hijos */
+
+	/* Encabezado */
+.header{
+	background-image: url(../img/logoUNAD.png);
+    background-position: right;
+	background-repeat: no-repeat;
+    background-size: 340px 130px;
+    width: 1100px;
+    height: 145px;
+    margin-right: 15px;
 }
 	
 .aside-a{
@@ -37,46 +47,46 @@
 	
 .aside-a h1{
 	color: #004669;
-	margin-left: ;
-	align-items: center;
-    font-family: 'Libre Franklin', sans-serif;
+	margin-left: 15px;
+	font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
     text-align: left;
-    margin-top: 0px;
+    margin-top: 10px;
+    width: 150px;
 	}
 	
-.figure img{
-	background: #FFF;
-	text align: right;	
-	margin-top: 15px;
-    width: 315px;
-}
+
 
 /* Menú lateral */
 .subheader{
 	display: flex;
 	flex-flow:row nowrap;
 	background-color: #e7b200;
-	border-radius: 05px;
+	border-radius: 10px;
     }
 
 .nav-contenedor{
 	flex: 0  auto;
 	background-color: #e7b200;
 	font-family: 'Libre Franklin', sans-serif;
+	 font-weight: bold;
 	vertical-align: left;
+	border-radius: 10px;
 	}
 	
 .nav-contenedor ul{
 	padding:0;
 	margin:0;
-			}
+	background-color: #e7b200;
+	border-radius: 10px;
+}
+
 .nav-contenedor li{	
 	padding:10px;		
 	list-style: none;
 	text-align: center;
     border-style: none ;
-	border-width: 10px;
+	border-radius: 10px;
     background-color:#e7b200;
 	}
 			
@@ -95,11 +105,17 @@
 	cursor:pointer;
 	}
 
-	/* Slider */
+/* Slider */
 .slider{
-	background-color: #e7b200;
 	flex: auto;
-	border-radius: 10px
+	border-radius: 10px;
+	}
+
+.slider img{
+	border-radius: 10px;
+	margin: 10px;
+	width: 850px;
+	height: 670px;
 	}
 		
 .container{
@@ -108,46 +124,60 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: center;
-	border-radius: 10px
+	border-radius: 10px;
 	}
 	
 /* Secciones */
-
+	
 #contenido{
-	float: left;
-	width:  1000px;
+	width: 1100px;
 	background: #004669;
 	border-radius: 10px;
 	overflow: hidden;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #FFF;
 	}
 	
-.articulo figure img{
-	width: 520px;
-    height: 320px;
-	text-align: center;
-	border-radius: 10px;
+.articulo{
+	width: 1100px;
+	float: left;
+	border-syle: solid;
+	border-color: #004669;
+	border-top-right-radius: 10px;
+	border-bottom-left--radius: 10px;
+	martin-bottm; 10px;
 	}
 	
 .articulo h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font:bold 12px
+	color: #FFF;
+	margin-left: 15px;
+	margin-right: 15px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	}
+	
+.articulo p{
 	font-family: 'Libre Franklin', sans-serif;
 	color: #FFF;
 	margin-left: 20px;
 	margin-right: 20px; 
 	margin-top: 20px;
 	margin-bottom: 20px;
-	text-align: center;
 	}
 	
-.articulo p{
-	font-family: 'Libre Franklin', sans-serif;
-	color: #FFFFFF;
-	margin-left: 20px;
-	margin-right: 20px; 
-	margin-top: 20px;
-	margin-bottom: 20px;
+.articulo img{
+	float: none;
+	width: 300px;
+	height: 300px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border-radius: 5px;
 	}
 	
-	
+
 /* Pie de Página */
 .footer{
 	display: flex;
