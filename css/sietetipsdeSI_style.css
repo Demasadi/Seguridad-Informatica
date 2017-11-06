@@ -141,6 +141,16 @@
 	
 .articulo{
 	width: 1100px;
+	float: center;
+	border-syle: solid;
+	border-color: #004669;
+	border-top-right-radius: 10px;
+	border-bottom-left--radius: 10px;
+	martin-bottm; 10px;
+	}
+
+.articulos{
+	width: 1100px;
 	float: left;
 	border-syle: solid;
 	border-color: #004669;
