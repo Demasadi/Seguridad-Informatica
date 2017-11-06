@@ -19,15 +19,18 @@
 
 	/* Encabezado */
 .header{
-    display: flex;
-    background-image: url(../img/logoUNAD.png);
+	display: flex; 
+	background-image: url(../img/logoUNAD.png);
     background-position: right;
+	align-items: center;
     background-repeat: no-repeat;
-    background-size: 430px 133px;
-    width: 1100px;
+    background-size:630px 133px;
+    width: 1000px;
     height: 145px;
-    margin-right: 15px;
-}
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    } 
 	
 .aside-a{
 	
