@@ -101,7 +101,7 @@
 	background-image: url(../img/matrix-2503236_1280.jpg);
 	/*display: flex; */
     background-position: right;
-	align-items: center;
+	alingn-items: center;
     background-repeat: no-repeat;
     background-size:;
     width: 1280px;
@@ -145,7 +145,7 @@
 
 .aside-c{
 	display: flex;
-	flex-flow:row nowrap;
+	flex-flow: row nowrap;
 	}
 				
 .twitter{
@@ -169,23 +169,22 @@
 section{
 	width: 500px;
 	float: left;
-	border-syle: solid;
+	border-style: solid;
 	border-color: #004669;
 	border-top-right-radius: 10px;
-	border-bottom-left--radius: 10px;
-	martin-bottm; 10px;
+	border-bottom-left-radius: 10px;
+	margin-bottom: 10px;
 	}	
 		
 	
 .aside{
 	width: 500px;
-	border-color; 004669;
+	border-color: #004669;
 	float: left;
-	border-style; solid;
+	border-style: solid;
 	border-bottom-left-radius:10px;
 	border-top-right-radius: 10px;	
 	margin-bottom: 10px;
-	
 	}
 
 
